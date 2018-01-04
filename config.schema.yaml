@@ -1,0 +1,12 @@
+---
+  host:
+    description: "URL of CloudShark server"
+    type: "string"
+    secret: false
+    required: true
+    default: 'https://www.cloudshark.org/'
+  apikey:
+    description: "CloudShark API Key"
+    type: "string"
+    secret: true
+    required: true

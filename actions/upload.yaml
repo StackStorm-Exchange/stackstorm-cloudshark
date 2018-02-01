@@ -1,0 +1,15 @@
+---
+name: upload
+runner_type: python-script
+description: Upload a PCAP file to CloudShark
+enabled: true
+entry_point: upload.py
+parameters:
+  file_path:
+    type: string
+    description: Path of the file to upload.
+    required: true
+  tags:
+    type: string
+    description: Optional tags to add to file
+    required: false
